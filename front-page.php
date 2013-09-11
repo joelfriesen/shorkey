@@ -12,11 +12,6 @@
     });    
   });
 </script>
-<!--
-<div class="container slides mainbg">
-  <div class="rslides_container">
-    <ul class="rslides">-->
-
 <div class="slides mainbg">
   <div class="container">
     <ul class="rslides">
