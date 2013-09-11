@@ -12,8 +12,13 @@
     });    
   });
 </script>
-<div class="container slides">
+<!--
+<div class="container slides mainbg">
   <div class="rslides_container">
+    <ul class="rslides">-->
+
+<div class="slides mainbg">
+  <div class="container">
     <ul class="rslides">
       <li>
         <p><strong>Len Shorkey</strong>, serving Victoria BC for over 5 years</p>
@@ -38,7 +43,7 @@
     </ul>
   </div>
 </div>
-<div class="fivecta">
+<div class="fivecta mainbg">
   <div class="container fivecol">
     <ul>
       <li class="col ">        
@@ -64,7 +69,7 @@
     </ul>
   </div>
 </div>
-<div class="main frontpage">
+<div class="main frontpage mainbg">
   <div class="container fivecol">
     <div class="col spanthree">
       <?php while (have_posts()) : the_post(); ?>

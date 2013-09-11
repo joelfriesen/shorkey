@@ -46,19 +46,22 @@ $tinywidth: 100%;	//phones portrait (width 100%)
 @import "nav";
 @import "layout";
 
-body {background:url(images/background.png);}
+body {background:$splashcolor;}
+.mainbg {background:url(images/background.png);}
 .stripe {background:$splashcolor; height: 45px; margin:0 0 2px 0;}
-.header {border: 1px solid $lightcolor; border-width: 1px 0 0 0;}
+.header .headerborder {border: 1px solid $lightcolor; border-width: 1px 0 0 0;}
 .logo a {background:url(images/logo.png); height:175px; display:block;}
 .logo a span {display: none;}
 .navholder {border: 1px solid $lightcolor; border-width: 0 0 2px 0; height: 118px}
-
-.slides {margin-bottom: 1em;max-width: 927px;} 
-.rslides_container {padding:0;
+.slides {padding: 1em 0;}
+.slides .container {
+  max-width: 927px; 
+  padding:0;
+  position: relative;
 	@media only screen and (min-width: 0) and (max-width: $teenbreak){display:none;}
 }
 
-.rslides_container p{
+.slides .container p{
 position: absolute;
 bottom: 10px;
 left: 25%;
@@ -154,3 +157,4 @@ padding: 10px;
   font-size: 1.8em;
   padding: .9em;
   margin:0;}
+

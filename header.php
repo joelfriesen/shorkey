@@ -65,20 +65,20 @@
   <nav class="menubar mobile-nav" id="mobile-nav">
     <?php wp_nav_menu(array( 'theme_location' => 'secondary-menu', 'container_class' => 'container' ) );?>
   </nav>  
-  <div class="stripe">
-
-  </div>
-  <div class="header">
-    <div class="container fivecol">
-      <div class="logo col spantwo rowholder">
-        <h1>
-          <a href="<?php bloginfo('url'); ?>"><span><?php bloginfo('name'); ?></span></a>
-        </h1>
-      </div>
-      <div class="navholder col spanthree rowholder ">
-        <nav class="menubar main-nav" id="main-nav">
-          <?php wp_nav_menu(array('theme_location' =>'primary-menu'));?>
-        </nav>
+  <div class="header mainbg">
+    <div class="stripe"></div>
+    <div class="headerborder">
+      <div class="container fivecol">
+        <div class="logo col spantwo rowholder">
+          <h1>
+            <a href="<?php bloginfo('url'); ?>"><span><?php bloginfo('name'); ?></span></a>
+          </h1>
+        </div>
+        <div class="navholder col spanthree rowholder ">
+          <nav class="menubar main-nav" id="main-nav">
+            <?php wp_nav_menu(array('theme_location' =>'primary-menu'));?>
+          </nav>
+        </div>
       </div>
     </div>
   </div>
