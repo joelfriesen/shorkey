@@ -39,11 +39,11 @@ a.more-link
   line-height: 35px; 
   text-decoration: none; 
   overflow: hidden; 
-   background:#dedee5;  width: 100%}
+   background:#eee;  width: 100%}
   
 form input[type="submit"]:hover,
 a.more-link:hover 
   { 
-  background: $body_link_color;
-  color:black; }
+  background:$splashcolor;
+  color:$body_link_color; }
 

@@ -8,10 +8,10 @@ Author URI: http://joelf.com
 */
 
 $contentbgcolor: rgba(#fff, 0.9);
-$darkcolor:#333;
+$darkcolor:#30363a;
 $lightcolor:#595144;
-$splashcolor:#30363a;
-$body_link_color:#2f63f8;
+$splashcolor:#606c74;
+$body_link_color:#30363a;
 $body_link_hover_color:$body_link_color*1.7;
 $googlefont1:'Droid', serif;
 $googlefont2:'Droid', serif;
@@ -48,13 +48,15 @@ $tinywidth: 100%;	//phones portrait (width 100%)
 
 body {background:$splashcolor;}
 .mainbg {background:url(images/background.png);}
-.stripe {background:$splashcolor; height: 45px; margin:0 0 2px 0;}
+.stripe {background:$darkcolor; height: 45px; margin:0 0 2px 0;}
 .header .headerborder {border: 1px solid $lightcolor; border-width: 1px 0 0 0;}
+.header .headerborder .container {overflow:visible; height: 14em;}
+
 .logo a {background:url(images/logo.png); height:175px; display:block;}
 .logo a span {display: none;}
 .navholder {border: 1px solid $lightcolor; border-width: 0 0 2px 0; height: 118px}
 
-.slides {padding: 1em 0;}
+.slides {padding: 1em 0; }
 .slides .container {
   max-width: 927px; 
   padding:0;
@@ -148,4 +150,7 @@ padding: 10px;
   font-size: 1.8em;
   padding: .9em;
   margin:0;}
+
+.pagetitle a{text-decoration: none; color: #fff}
+.newscontentbox{height:17em;}
 

@@ -1,12 +1,7 @@
 <?php get_header(); ?>
-<div class="main">
-  <div class="container">
-    <!-- Page title -->
-    <h1 class="pagetitle"><span><?php the_title(); ?></span></h1>
-  </div>
+<div class="main mainbg">
   <div class="container fivecol">
     <div class="col spanthree">
-      <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
           <div class="contentarea">
             <!-- Set a featured image at the size specified. -->
@@ -24,16 +19,12 @@
                 </div>
               </div>
             <?php endif; ?> 
-            <h3 class="headline"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
+            <h3 class="headline pagetitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
             <?php print_excerpt(500); ?>
             <div class="excerpt"><span>…</span></div>
             <a href="<?php the_permalink(); ?>" class="more-link">Read More</a>
           </div>
-        <?php endwhile; ?>       
-      <?php else : ?>
-        <h2><?php _e('Oops! Page not found!'); ?></h2>
-        <p>I couldn't find any posts</p>
-      <?php endif; ?> 
+        <?php endwhile; ?>
       <?php if ( $wp_query->max_num_pages > 1 ) : ?> 
         <div class="pagination"> 
           <?php previous_posts_link( __('<< newer articles ') ); ?>
