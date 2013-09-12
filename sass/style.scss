@@ -61,12 +61,14 @@ body {background:$splashcolor;}
   max-width: 927px; 
   padding:0;
   position: relative;
+  margin: 0 auto;
 	@media only screen and (min-width: 0) and (max-width: $teenbreak){display:none;}
 }
 
-.slides .container p{
+.slides .container p,
+.slides .container p a{
 position: absolute;
-bottom: 10px;
+top: 10px;
 left: 25%;
 color:#fff;
 font-family: $googlefont2;

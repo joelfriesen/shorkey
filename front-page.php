@@ -1,5 +1,8 @@
 <?php get_header(); ?>
-<script>
+<div class="slides mainbg">
+  <?php echo do_shortcode( '[responsive_slider]' ); ?>
+</div>
+<!--<script>
   $(function () {
     $(".rslides").responsiveSlides({
       auto: true,
@@ -37,7 +40,7 @@
       </li>
     </ul>
   </div>
-</div>
+</div> -->
 <div class="fivecta mainbg">
   <div class="container fivecol">
     <ul>
