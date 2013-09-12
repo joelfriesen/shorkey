@@ -1,4 +1,19 @@
 <?php
+
+// Link to theme customizer
+// =======================================================
+
+add_action ('admin_menu', 'my_theme_customizer');
+function my_theme_customizer() {
+    add_theme_page(
+        __( 'Customize Theme Options', THEMENAME ),
+        __( 'Customize Theme', THEMENAME ),
+        'edit_theme_options',
+        'customize.php'
+    );
+}
+include( 'twitter.class.php' );
+
 // Register some sidebars
 // =======================================================
 

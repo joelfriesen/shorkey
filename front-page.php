@@ -17,23 +17,23 @@
     <ul class="rslides">
       <li>
         <p><strong>Len Shorkey</strong>, serving Victoria BC for over 5 years</p>
-        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/1.jpg" alt="XXXXXX XXXX XXXXXXXX" />
+        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/1.jpg" alt="Johnson St. Bridge" />
       </li>
       <li>
         <p>Specializing in <strong>commercial</strong>, <strong>construction</strong> and <strong>private lending</strong></p>
-        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/2.jpg" alt="XXXXXX XXXX XXXXXXXX" />
+        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/2.jpg" alt="ocean shore" />
       </li>
       <li>
         <p>Allow me to help you <strong>invest in your future</strong></p>
-        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/3.jpg" alt="XXXXXX XXXX XXXXXXXX" />
+        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/3.jpg" alt="Jannion Building" />
       </li>
       <li>
         <p>Raised in <strong>Victoria BC</strong></p>
-        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/4.jpg" alt="XXXXXX XXXX XXXXXXXX" />
+        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/4.jpg" alt="Victoria Condos" />
       </li>
       <li>
         <p><strong>Contact me</strong> to start today!</p>
-        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/5.jpg" alt="XXXXXX XXXX XXXXXXXX" />
+        <img src="<?php bloginfo('template_directory'); ?>/images/slideshow/5.jpg" alt="Empress Hotel" />
       </li>
     </ul>
   </div>
