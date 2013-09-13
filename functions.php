@@ -13,6 +13,16 @@
  'after_title' => '</h3>',
  ));
 
+ register_sidebar(array(
+ 'name' => __( 'Front page call to action area' ),
+ 'id' => 'frontpagecalltoaction',
+ 'description' => __( 'Front page call to action area' ),
+ 'before_widget' => '',
+ 'after_widget' => '',
+ 'before_title' => '',
+ 'after_title' => '',
+ ));
+
 register_sidebar(array(
  'name' => __( 'footer' ),
  'id' => 'footer',
